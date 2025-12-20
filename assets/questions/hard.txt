@@ -1,0 +1,301 @@
+# Question|Opt1|Opt2|Opt3|Opt4|CorrectIndex
+template <___ T> class A;|typename / class|auto|template|type|0
+int x = 2;\nint y = x++ + ++x;\ncout << y;|6|5|Undefined Behavior|4|0
+int a[]={1,2};\ncout << *a;|Address|2|1|Error|2
+int x=5;\nsizeof(x++);\ncout << x;|6|5|0|Error|1
+Can derived classes access protected members?|Sometimes|Yes|Only if friend|No|1
+inline void f(); // 'inline' is a:|Request/Hint|Macro|Loop|Command|0
+bool b = true;\ncout << boolalpha << b;|0|1|true|Error|2
+struct A { int x; }; // Default access?|Private|Friend|Static|Public|3
+void f(int a[]) { cout << sizeof(a); }\n// On 64-bit sys|0|Error|8|Size of array|2
+int n=5; int a[n]; // Standard C++?|Yes|C++11|No (VLA)|Maybe|2
+int a[]={10,20};\ncout << 1[a];|20|1|10|Address|0
+Which is best for int to float?|static_cast|reinterpret_cast|const_cast|type_cast|0
+int x;\nif((x = 4)) cout << x;|true|4|Error|1|1
+int x=10; void* p=&x;\ncout << *(int*)p;|10|Error|0|Address|0
+int x=5; int* const p=&x;\n*p=10; cout << x;|0|Address|10|Error|2
+vector<int> v; v.push_back(1);\ncout << v[0];|Error|1|Size|0|1
+int* p = nullptr;\n// *p = 5; Runtime result?|0|Nothing|5|Crash/Segfault|3
+auto f = [](){ return 5; };\ncout << f();|Void|[]|0|5|3
+typedef int* IP; // IP is:|macro|int|variable|int*|3
+vector<int> v(5); cout << v.size();|5|Max|0|Error|0
+int x=0;\n(true || ++x);\ncout << x;|false|1|Error|0|3
+class A{ virtual void f(){cout<<1;} };\nclass B:public A{ void f(){cout<<2;} };\nA* p=new B; p->f();|2|Error|12|1|0
+int x=10; int* p=&x;\ncout << (p == &x);|1|false|true|0|0
+int x = 0;\ncout << ~x;|1|-0|MAX_INT|-1|3
+'volatile' tells compiler:|Make atomic|Read only|Make fast|Don't optimize|3
+'mutable' allows modification in:|const functions|static functions|loops|macros|0
+const int& x = 5; // Valid?|Runtime Error|Yes|No|Only C++20|1
+int a=6, b=4;\na^=b; b^=a; a^=b;\ncout << a << b;|00|46|64|102|1
+int f(int n){ return n<=1?1:n*f(n-1); }\ncout<<f(3);|9|3|6|Error|2
+class A{ virtual void f(){cout<<1;} };\nclass B:public A{ void f(){cout<<2;} };\nB b; A a=b; a.f();|None|1|12|2|1
+cout << (3 & 1);|0|1|2|3|1
+int a[]={1,2,3};\ncout << (a+2) - a;|2|1|4|Address|0
+auto x = 5.5; // Type of x?|float|int|double|auto|2
+int x = 8;\nint y = ++x;\ncout << y;|10|9|Error|8|1
+#define S(x) #x\ncout << S(hello);|Error|x|hello|"hello"|3
+double d = 7 / 2;\ncout << d;|2.0|2.5|3.0|Error|2
+cout << (5 ^ 5);|0|25|1|5|0
+int x=1;\ncout << sizeof(++x);|8|1|2|4|3
+class A { public: static int x; };\n// How to access x?|A.x|A::x|A->x|x::A|1
+int x = 5; // Stored where?|Code|Heap|Global|Stack|3
+int x = 0b1101;\ncout << x;|Error|13|0|14|1
+#define A\n#ifdef A\ncout<<1;\n#endif|A|1|Nothing|0|1
+cout << (5 | 2);|3|10|7|0|2
+int x = 8;\nint y = x++;\ncout << y;|10|Error|8|0|2
+Can friend function access private members?|Yes|Only protected|Only public|No|0
+switch(x){ case 1: int y=5; }|Warning|Error (scope)|Runtime Error|5|1
+int x=23; int* p=&x;\ncout << *p;|Address|p|0|23|3
+void f(int& n){ n++; }\nint x=5; f(x); cout<<x;|6|Error|0|4|0
+#define S(x) x*x\ncout << S(1+1);|3|2|1|4|0
+int a[]={1,2,3};\nint* p=a+2;\ncout << *(p-1);|Address|3|2|1|2
+int x = -10 % 2;\ncout << x;|Error|1|0|482|2
+bool b = true;\ncout << b;|0|Error|1|true|2
+'explicit' prevents:|Implicit conversion|Overloading|Explicit conversion|Construction|0
+int x=5; const int* p=&x;\n// What is illegal?|int y=*p;|cout<<p;|p=&y;|*p=10;|3
+#define C(a,b) a##b\nint xy=1; cout << C(x,y);|x y|xy|1|0|2
+namespace N { int x=1; }\ncout << x;|Error|1|0|N::x|0
+int* p = (int*)malloc(4);\n// Correct free?|remove(p);|free(p);|dealloc(p);|delete p;|1
+cout << (1 << 1 + 2);|6|0|8|4|2
+class A{}; class B:public A{};\nB b; // Constructor order?|A only|A then B|Random|B only|1
+int x=0;\n(false && ++x);\ncout << x;|0|1|true|false|0
+void f(int n){ n++; }\nint x=5; f(x); cout<<x;|4|5|Error|6|1
+int* p = new int(5);\ndelete p;\n// p is now?|Zero|Null|Dangling Pointer|Safe|2
+5.5 % 2; // Result?|0.5|Error|1.5|1|1
+class A { public: A(){cout<<1;} };\nA a;|Void|0|1|Nothing|2
+int f() { static int x=0; return ++x; }\ncout << f() << f();|11|12|22|01|1
+int x=1; auto f=[x](){ return x; };\nx=2; cout<<f();|2|3|Error|1|3
+vector<int> v={10};\ncout << *v.begin();|Address|0|10|1|2
+#define MAX 10\ncout << MAX;|10|Error|int|MAX|0
+float f=1.0; switch(f)...|1|Valid|Error|0|2
+char c = 'a' + 1;\ncout << c;|a|98|b|Error|2
+int x=2; int* p=&x; int** q=&p;\ncout << **q;|0|Address|p|2|3
+class A { public: ~A(){cout<<1;} };\n{ A a; }|Nothing|0|1|Void|2
+int x = 014;\ncout << x;|10|0|Error|12|3
+void f() { return 1; } // Result?|1|0|Error|Nothing|2
+void f(int){cout<<1;} void f(double){cout<<2;}\nf(5.5);|Error|2|5|0|1
+int x=1; auto f=[&x](){ return x; };\nx=2; cout<<f();|0|2|3|Error|1
+Which cast removes constness?|static_cast|reinterpret_cast|dynamic_cast|const_cast|3
+int x = 2 + 4 > 5 ? 10 : 20;\ncout << x;|1|30|10|Error|2
+union U { int i; char c; };\nsizeof(U) is usually?|5|1|8|4|3
+class A {}; sizeof(A) is:|4|8|0|1 (usually)|3
+void f(int a=1, int b=2){ cout<<a+b; }\nf(3);|5|Error|3|4|0
+map<int,int> m; cout << m[5];|0 (Default)|Null|5|Error|0
+int x=10;\nint main(){ int x=5; cout<<x; }|Error|15|5|10|2
+enum E { A=1, B }; cout << B;|Error|1|0|2|3
+double d = 5 / 2.0;\ncout << d;|2|Error|0|2.5|3
+int a[]={10,20,30};\nint* p=a;\ncout << *(p+1);|20|10|Address|11|0
+inside non-static member func, 'this' is:|Null|Pointer to object|Void*|Reference|1
+No return in main() means?|return 0;|Error|return -1;|Undefined|0
+virtual void f() = 0; // This makes class:|Abstract|Concrete|Void|Static|0
+int x = 0xA7;\ncout << x;|Error|167|183|15|1
+int& r = *nullptr; // Result?|Undefined/Crash|0|Nothing|Error|0
+int x = (4, 2, 7);\ncout << x;|7|4|13|Error|0
+class A{}; class B:public A{};\n{ B b; } // Destructor order?|A then B|B only|B then A|A only|2
+cout << (1 << 1);|0|976|2|1|2
+class A { int x; }; // Default access?|Private|Protected|Public|Friend|0
+int* p = new int[10];\n// Correct delete?|remove p;|delete[10] p;|delete[] p;|free(p);|2
+int x=0; [=]() mutable {x++;}();\ncout << x;|Error|0|Undefined|2|1
+void f() { int* p = new int; }\n// This causes:|Stack Overflow|Memory Leak|Nothing|Segfault|1
+cout << (16 >> 1);|15|8|32|0|1
+int x=10;\nint main(){ int x=5; cout<<::x; }|10|5|15|Error|0
+int a=1, b=7;\na^=b; b^=a; a^=b;\ncout << a << b;|8-6|Error|71|00|2
+vector<int> v; v.push_back(1);\ncout << v[0];|1|Error|0|Size|0
+int x = 0xE0;\ncout << x;|224|Error|15|0|0
+Can friend function access private members?|Only protected|Yes|No|Sometimes|1
+class A{ virtual void f(){cout<<1;} };\nclass B:public A{ void f(){cout<<2;} };\nB b; A a=b; a.f();|1|None|Error|12|0
+auto f = [](){ return 5; };\ncout << f();|5|Void|0|[]|0
+Which is best for int to float?|const_cast|static_cast|reinterpret_cast|type_cast|1
+bool b = true;\ncout << b;|1|true|0|false|0
+int* p = (int*)malloc(4);\n// Correct free?|remove(p);|free(p);|delete p;|dealloc(p);|1
+void f(int n){ n++; }\nint x=5; f(x); cout<<x;|6|5|Error|4|1
+namespace N { int x=1; }\ncout << x;|1|Error|0|N::x|1
+union U { int i; char c; };\nsizeof(U) is usually?|8|1|4|5|2
+inside non-static member func, 'this' is:|Void*|Reference|Pointer to object|Null|2
+typedef int* IP; // IP is:|pointer|int*|variable|int|1
+int a[]={1,2,3};\nint* p=a+2;\ncout << *(p-1);|2|0|3|Address|0
+int x=5;\nsizeof(x++);\ncout << x;|6|0|5|4|2
+int x = 8;\nint y = x++;\ncout << y;|8|0|9|10|0
+int x=51; int* p=&x;\ncout << *p;|x|0|51|p|2
+int x = -9 % 2;\ncout << x;|1|0|567|Error|0
+int x=5; const int* p=&x;\n// What is illegal?|x=10;|p=&y;|*p=10;|int y=*p;|2
+double d = 5 / 2.0;\ncout << d;|2.5|2|0|Error|0
+int* p = new int[10];\n// Correct delete?|delete[10] p;|delete[] p;|remove p;|delete p;|1
+int x = 5; // Stored where?|Stack|Heap|Register|Global|0
+int f() { static int x=0; return ++x; }\ncout << f() << f();|11|01|12|22|2
+auto x = 5.5; // Type of x?|double|auto|float|decimal|0
+#define A\n#ifdef A\ncout<<1;\n#endif|0|A|1|Error|2
+int n=5; int a[n]; // Standard C++?|Maybe|No (VLA)|Always|Yes|1
+inline void f(); // 'inline' is a:|Request/Hint|Macro|Loop|Type|0
+#define C(a,b) a##b\nint xy=1; cout << C(x,y);|Error|xy|x y|1|3
+int a[]={10,20,30};\nint* p=a;\ncout << *(p+1);|10|11|20|30|2
+int x=0; [=]() mutable {x++;}();\ncout << x;|0|Error|2|Undefined|0
+cout << (2 << 1);|1|2|4|0|2
+No return in main() means?|Undefined|return 0;|return -1;|Error|1
+5.5 % 2; // Result?|Error|2|0.5|1.5|0
+int x=7; int* p=&x; int** q=&p;\ncout << **q;|Address|x|7|0|2
+int* p = nullptr;\n// *p = 5; Runtime result?|Crash/Segfault|Nothing|Null|5|0
+'volatile' tells compiler:|Make fast|Don't optimize|Read only|Thread safe|1
+class A { public: A(){cout<<1;} };\nA a;|0|1|Void|Error|1
+int& r = *nullptr; // Result?|Error|Undefined/Crash|0|Null|1
+void f() { return 1; } // Result?|Void|0|Nothing|Error|3
+cout << (8 >> 1);|4|16|0|7|0
+int* p = new int(5);\ndelete p;\n// p is now?|5|Safe|Dangling Pointer|Zero|2
+void f(int){cout<<1;} void f(double){cout<<2;}\nf(5.5);|2|Error|1|5|0
+int x = 3;\nint y = x++ + ++x;\ncout << y;|8|6|9|Undefined Behavior|0
+struct A { int x; }; // Default access?|Friend|Protected|Public|Static|2
+int x=5; int* const p=&x;\n*p=10; cout << x;|5|10|Error|0|1
+int x = 4 + 5 > 5 ? 10 : 20;\ncout << x;|10|0|30|1|0
+'explicit' prevents:|Explicit conversion|Implicit conversion|Inheritance|Construction|1
+class A { public: static int x; };\n// How to access x?|this->x|A->x|A::x|A.x|2
+#define MAX 10\ncout << MAX;|10|MAX|Error|0|0
+class A{ virtual void f(){cout<<1;} };\nclass B:public A{ void f(){cout<<2;} };\nA* p=new B; p->f();|1|2|Error|None|1
+int x=10;\nint main(){ int x=5; cout<<::x; }|Error|15|0|10|3
+int a[]={1,2};\ncout << *a;|Error|Address|0|1|3
+class A {}; sizeof(A) is:|1 (usually)|Undefined|8|0|0
+'mutable' allows modification in:|static functions|const functions|global scope|macros|1
+int x=1;\ncout << sizeof(++x);|5|2|4|1|2
+double d = 7 / 2;\ncout << d;|2.5|2.0|3.0|Error|2
+class A { int x; }; // Default access?|Private|Friend|Protected|Static|0
+int x = (5, 9, 2);\ncout << x;|16|Error|2|9|2
+int x=1; auto f=[&x](){ return x; };\nx=2; cout<<f();|3|Error|0|2|3
+void f(int a=1, int b=2){ cout<<a+b; }\nf(3);|5|Error|3|4|0
+cout << (5 | 2);|0|10|7|3|2
+void f(int& n){ n++; }\nint x=5; f(x); cout<<x;|4|6|5|Error|1
+int x=0;\n(true || ++x);\ncout << x;|true|Error|false|0|3
+int x = 0b1110;\ncout << x;|0|Error|14|10|2
+#define S(x) x*x\ncout << S(1+1);|4|Error|3|2|2
+int x = 9;\nint y = ++x;\ncout << y;|9|Error|10|0|2
+int x=10; void* p=&x;\ncout << *(int*)p;|Address|Error|Void|10|3
+virtual void f() = 0; // This makes class:|Void|Abstract|Virtual|Concrete|1
+vector<int> v(5); cout << v.size();|5|Max|Allocated|0|0
+char c = 'A' + 3;\ncout << c;|3|68|D|A|2
+int x=10; int* p=&x;\ncout << (p == &x);|0|Error|false|1|3
+bool b = true;\ncout << boolalpha << b;|true|1|0|Error|0
+switch(x){ case 1: int y=5; }|Valid|Error (scope)|Warning|Runtime Error|1
+class A { public: ~A(){cout<<1;} };\n{ A a; }|1|0|Void|Error|0
+int x;\nif((x = 2)) cout << x;|true|2|Error|1|1
+const int& x = 5; // Valid?|Only C++20|Maybe|Runtime Error|Yes|3
+int a[]={10,20};\ncout << 1[a];|10|20|Error|Address|1
+cout << (3 & 1);|0|1|3|2|1
+map<int,int> m; cout << m[5];|Undefined|5|0 (Default)|Error|2
+void f() { int* p = new int; }\n// This causes:|Optimization|Memory Leak|Nothing|Stack Overflow|1
+float f=1.0; switch(f)...|1|0|Error|Warning|2
+int x = 024;\ncout << x;|30|16|Error|20|3
+vector<int> v={10};\ncout << *v.begin();|Error|0|1|10|3
+class A{}; class B:public A{};\n{ B b; } // Destructor order?|B only|A then B|B then A|A only|2
+int x=10;\nint main(){ int x=5; cout<<x; }|10|0|Error|5|3
+#define S(x) #x\ncout << S(hello);|hello|x|Symbol|"hello"|3
+int x=0;\n(false && ++x);\ncout << x;|1|false|true|0|3
+Can derived classes access protected members?|Only if friend|Yes|No|Only if public|1
+class A{}; class B:public A{};\nB b; // Constructor order?|A only|B then A|Random|A then B|3
+cout << (1 << 1 + 2);|4|8|1|0|1
+int x=1; auto f=[x](){ return x; };\nx=2; cout<<f();|Error|1|3|2|1
+int f(int n){ return n<=1?1:n*f(n-1); }\ncout<<f(3);|3|Error|6|1|2
+template <___ T> class A;|auto|struct|type|typename / class|3
+int x = 0;\ncout << ~x;|1|-1|0|-0|1
+Which cast removes constness?|reinterpret_cast|const_cast|remove_cast|dynamic_cast|1
+int a[]={1,2,3};\ncout << (a+2) - a;|8|2|1|Address|1
+cout << (5 ^ 5);|10|0|1|25|1
+void f(int a[]) { cout << sizeof(a); }\n// On 64-bit sys|4|Size of array|0|8|3
+enum E { A=1, B }; cout << B;|1|Error|2|0|2
+int& r = *nullptr; // Result?|Nothing|Error|0|Undefined/Crash|3
+int f(int n){ return n<=1?1:n*f(n-1); }\ncout<<f(3);|Error|9|6|1|2
+#define S(x) #x\ncout << S(hello);|"hello"|Error|x|Symbol|0
+cout << (5 ^ 5);|1|5|25|0|3
+int x=1; auto f=[&x](){ return x; };\nx=2; cout<<f();|3|2|1|0|1
+int x=9; int* p=&x; int** q=&p;\ncout << **q;|p|9|0|x|1
+No return in main() means?|Void|return 0;|Undefined|Error|1
+vector<int> v; v.push_back(1);\ncout << v[0];|1|Null|0|Size|0
+void f(int& n){ n++; }\nint x=5; f(x); cout<<x;|Error|5|0|6|3
+int x=5; const int* p=&x;\n// What is illegal?|*p=10;|p=&y;|cout<<p;|x=10;|0
+cout << (5 | 2);|10|7|0|3|1
+void f(int n){ n++; }\nint x=5; f(x); cout<<x;|0|6|4|5|3
+int* p = (int*)malloc(4);\n// Correct free?|remove(p);|delete[] p;|free(p);|dealloc(p);|2
+int x = -12 % 2;\ncout << x;|Error|0|748|1|1
+void f(int a=1, int b=2){ cout<<a+b; }\nf(3);|1|3|4|5|3
+int a[]={10,20};\ncout << 1[a];|1|10|Error|20|3
+int n=5; int a[n]; // Standard C++?|C++11|Yes|No (VLA)|Always|2
+int x = 0b10110;\ncout << x;|Error|22|0|10|1
+int x=0;\n(true || ++x);\ncout << x;|true|false|1|0|3
+int x = (5, 9, 6);\ncout << x;|Error|9|20|6|3
+int x = 4 + 5 > 5 ? 10 : 20;\ncout << x;|Error|1|10|30|2
+const int& x = 5; // Valid?|Maybe|No|Runtime Error|Yes|3
+int a[]={1,2,3};\ncout << (a+2) - a;|4|2|8|Address|1
+void f() { return 1; } // Result?|0|1|Nothing|Error|3
+int* p = nullptr;\n// *p = 5; Runtime result?|5|0|Nothing|Crash/Segfault|3
+int x = 5;\nint y = x++ + ++x;\ncout << y;|13|12|11|10|1
+#define S(x) x*x\ncout << S(1+1);|1|4|3|Error|2
+class A {}; sizeof(A) is:|1 (usually)|4|Undefined|0|0
+virtual void f() = 0; // This makes class:|Abstract|Virtual|Concrete|Static|0
+union U { int i; char c; };\nsizeof(U) is usually?|4|5|2|1|0
+cout << (3 & 1);|1|0|2|3|0
+int x;\nif((x = 9)) cout << x;|true|9|Error|1|1
+int x=10;\nint main(){ int x=5; cout<<x; }|10|0|15|5|3
+int x=0;\n(false && ++x);\ncout << x;|Error|0|true|1|1
+int a[]={1,2};\ncout << *a;|Address|0|1|Error|2
+cout << (1 << 2);|2|0|4|3|2
+Can friend function access private members?|Yes|No|Sometimes|Only protected|0
+'volatile' tells compiler:|Make atomic|Read only|Make fast|Don't optimize|3
+double d = 9 / 2.0;\ncout << d;|4.5|0|Error|4|0
+cout << (8 >> 2);|2|32|6|0|0
+Which cast removes constness?|dynamic_cast|const_cast|remove_cast|static_cast|1
+int x=10; void* p=&x;\ncout << *(int*)p;|0|Address|10|Void|2
+typedef int* IP; // IP is:|int*|macro|variable|pointer|0
+Which is best for int to float?|reinterpret_cast|type_cast|static_cast|dynamic_cast|2
+class A{}; class B:public A{};\n{ B b; } // Destructor order?|B only|B then A|A only|A then B|1
+switch(x){ case 1: int y=5; }|Runtime Error|Error (scope)|5|Warning|1
+#define A\n#ifdef A\ncout<<1;\n#endif|0|A|1|Error|2
+cout << (1 << 1 + 2);|0|8|4|1|1
+5.5 % 2; // Result?|1.5|1|Error|2|2
+class A { public: A(){cout<<1;} };\nA a;|Void|Nothing|1|Error|2
+int x = 0xC4;\ncout << x;|212|15|196|Error|2
+double d = 9 / 2;\ncout << d;|Error|2.0|2.5|4.0|3
+void f(int a[]) { cout << sizeof(a); }\n// On 64-bit sys|Size of array|0|4|8|3
+class A{}; class B:public A{};\nB b; // Constructor order?|A only|Random|B then A|A then B|3
+#define MAX 10\ncout << MAX;|0|int|10|MAX|2
+int x=79; int* p=&x;\ncout << *p;|p|Address|x|79|3
+int x=1;\ncout << sizeof(++x);|4|2|5|1|0
+char c = 'A' + 4;\ncout << c;|4|69|E|Error|2
+enum E { A=1, B }; cout << B;|0|B|2|Error|2
+int f() { static int x=0; return ++x; }\ncout << f() << f();|00|12|11|01|1
+void f() { int* p = new int; }\n// This causes:|Memory Leak|Segfault|Nothing|Optimization|0
+inline void f(); // 'inline' is a:|Macro|Request/Hint|Command|Loop|1
+'explicit' prevents:|Inheritance|Implicit conversion|Construction|Overloading|1
+int x=5;\nsizeof(x++);\ncout << x;|Error|5|4|0|1
+Can derived classes access protected members?|Sometimes|Only if friend|No|Yes|3
+int x=10; int* p=&x;\ncout << (p == &x);|true|0|1|false|2
+int x=10;\nint main(){ int x=5; cout<<::x; }|15|Error|10|5|2
+int x=5; int* const p=&x;\n*p=10; cout << x;|Error|0|10|Address|2
+int x = 0;\ncout << ~x;|1|0|MAX_INT|-1|3
+inside non-static member func, 'this' is:|Void*|Pointer to object|Null|Reference|1
+struct A { int x; }; // Default access?|Static|Public|Friend|Protected|1
+auto x = 5.5; // Type of x?|auto|decimal|int|double|3
+float f=1.0; switch(f)...|Warning|0|Valid|Error|3
+'mutable' allows modification in:|loops|static functions|const functions|macros|2
+int x = 9;\nint y = ++x;\ncout << y;|10|0|9|11|0
+template <___ T> class A;|auto|typename / class|type|struct|1
+int* p = new int(5);\ndelete p;\n// p is now?|Zero|Null|Dangling Pointer|Safe|2
+class A { public: ~A(){cout<<1;} };\n{ A a; }|0|Void|Error|1|3
+void f(int){cout<<1;} void f(double){cout<<2;}\nf(5.5);|Error|2|0|5|1
+vector<int> v(5); cout << v.size();|5|Max|Error|Allocated|0
+int x=0; [=]() mutable {x++;}();\ncout << x;|0|2|1|Error|0
+int x = 10;\nint y = x++;\ncout << y;|0|Error|10|11|2
+bool b = true;\ncout << b;|0|1|true|false|1
+int* p = new int[10];\n// Correct delete?|delete[10] p;|free(p);|delete p;|delete[] p;|3
+int x = 015;\ncout << x;|23|11|0|13|3
+class A { public: static int x; };\n// How to access x?|A->x|A::x|this->x|x::A|1
+class A{ virtual void f(){cout<<1;} };\nclass B:public A{ void f(){cout<<2;} };\nB b; A a=b; a.f();|12|Error|2|1|3
+vector<int> v={10};\ncout << *v.begin();|Address|Error|10|0|2
+class A{ virtual void f(){cout<<1;} };\nclass B:public A{ void f(){cout<<2;} };\nA* p=new B; p->f();|2|1|12|Error|0
+#define C(a,b) a##b\nint xy=1; cout << C(x,y);|xy|Error|1|0|2
+bool b = true;\ncout << boolalpha << b;|true|false|1|0|0
+int a=8, b=7;\na^=b; b^=a; a^=b;\ncout << a << b;|151|78|00|Error|1
+int x = 5; // Stored where?|Register|Code|Heap|Stack|3
+auto f = [](){ return 5; };\ncout << f();|Error|[]|5|0|2
+class A { int x; }; // Default access?|Protected|Private|Friend|Static|1
+int a[]={1,2,3};\nint* p=a+2;\ncout << *(p-1);|3|Address|2|0|2
+int a[]={10,20,30};\nint* p=a;\ncout << *(p+1);|20|11|10|30|0
+int x=1; auto f=[x](){ return x; };\nx=2; cout<<f();|0|2|1|Error|2
+namespace N { int x=1; }\ncout << x;|N|N::x|Error|0|2
+map<int,int> m; cout << m[5];|5|0 (Default)|Undefined|Null|1

@@ -1,0 +1,301 @@
+# Question|A|B|C|D|CorrectIndex
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|A|B|Error|1
+int arr[] = { 11, 28, 46 };\nint* p = arr;\ncout << *(p + 1);|11|Error|28|46|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|15|Error|5|10|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|A|B|1
+int arr[] = { 17, 48, 20 };\nint* p = arr;\ncout << *(p + 1);|Error|48|Address|20|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|0|10|13|Error|2
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|B|A|Error|1
+int arr[] = { 45, 25, 14 };\nint* p = arr;\ncout << *(p + 1);|14|Address|45|25|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|Error|10|0|15|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|B|A|2
+int arr[] = { 31, 30, 16 };\nint* p = arr;\ncout << *(p + 1);|16|Error|30|Address|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|14|0|Error|4|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|A|Error|C|3
+int arr[] = { 44, 13, 35 };\nint* p = arr;\ncout << *(p + 1);|Error|13|35|44|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|4|14|0|10|1
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|C|Error|B|1
+int arr[] = { 15, 10, 33 };\nint* p = arr;\ncout << *(p + 1);|15|10|33|Error|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|15|5|0|10|0
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|C|A|Error|0
+int arr[] = { 48, 30, 48 };\nint* p = arr;\ncout << *(p + 1);|48|Error|Address|30|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|2|Error|12|0|2
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|A|B|3
+int arr[] = { 47, 50, 32 };\nint* p = arr;\ncout << *(p + 1);|50|Address|32|47|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|10|0|2|12|3
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|B|A|Error|2
+int arr[] = { 35, 36, 49 };\nint* p = arr;\ncout << *(p + 1);|35|49|36|Address|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|10|2|Error|12|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|A|C|Error|0
+int arr[] = { 27, 35, 26 };\nint* p = arr;\ncout << *(p + 1);|27|35|Address|Error|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|0|Error|10|12|3
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|C|B|2
+int arr[] = { 39, 22, 40 };\nint* p = arr;\ncout << *(p + 1);|40|22|Error|39|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|4|0|Error|14|3
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|A|Error|C|3
+int arr[] = { 36, 18, 16 };\nint* p = arr;\ncout << *(p + 1);|18|Error|36|16|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|13|10|0|3|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|A|B|Error|0
+int arr[] = { 16, 31, 28 };\nint* p = arr;\ncout << *(p + 1);|Address|28|31|16|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|13|10|0|3|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|A|B|1
+int arr[] = { 26, 37, 12 };\nint* p = arr;\ncout << *(p + 1);|37|12|26|Error|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|Error|4|14|0|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|C|A|Error|2
+int arr[] = { 19, 47, 46 };\nint* p = arr;\ncout << *(p + 1);|46|19|Error|47|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|10|15|5|0|1
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|A|Error|C|1
+int arr[] = { 26, 21, 23 };\nint* p = arr;\ncout << *(p + 1);|Error|21|Address|23|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|12|2|10|0|0
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|A|B|Error|1
+int arr[] = { 16, 14, 47 };\nint* p = arr;\ncout << *(p + 1);|Address|47|14|16|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|Error|5|15|0|2
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|B|A|1
+int arr[] = { 16, 15, 41 };\nint* p = arr;\ncout << *(p + 1);|16|Address|15|Error|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|14|0|10|4|0
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|A|B|2
+int arr[] = { 42, 13, 41 };\nint* p = arr;\ncout << *(p + 1);|42|Address|13|Error|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|0|15|Error|5|1
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|Error|C|A|0
+int arr[] = { 41, 15, 12 };\nint* p = arr;\ncout << *(p + 1);|15|41|Address|12|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|0|3|13|10|2
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|A|B|3
+int arr[] = { 13, 17, 48 };\nint* p = arr;\ncout << *(p + 1);|17|48|13|Address|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|0|10|5|15|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|Error|C|A|0
+int arr[] = { 38, 29, 11 };\nint* p = arr;\ncout << *(p + 1);|Address|38|11|29|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|13|10|Error|0|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|Error|C|A|2
+int arr[] = { 46, 14, 10 };\nint* p = arr;\ncout << *(p + 1);|14|Error|46|Address|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|10|15|5|0|1
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|A|B|3
+int arr[] = { 50, 32, 12 };\nint* p = arr;\ncout << *(p + 1);|Address|12|Error|32|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|14|10|4|Error|0
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|B|A|C|2
+int arr[] = { 17, 14, 13 };\nint* p = arr;\ncout << *(p + 1);|Error|14|17|Address|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|Error|14|4|10|1
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|B|C|A|3
+int arr[] = { 11, 34, 42 };\nint* p = arr;\ncout << *(p + 1);|34|Error|Address|11|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|0|5|15|10|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|C|B|1
+int arr[] = { 22, 15, 42 };\nint* p = arr;\ncout << *(p + 1);|42|15|Error|Address|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|Error|0|14|10|2
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|A|B|3
+int arr[] = { 16, 27, 47 };\nint* p = arr;\ncout << *(p + 1);|Address|16|27|Error|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|Error|5|15|0|2
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|B|A|2
+int arr[] = { 45, 35, 39 };\nint* p = arr;\ncout << *(p + 1);|Error|Address|35|45|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|4|10|14|0|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|A|B|2
+int arr[] = { 38, 47, 21 };\nint* p = arr;\ncout << *(p + 1);|21|47|38|Address|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|3|13|Error|10|1
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|B|A|3
+int arr[] = { 20, 35, 36 };\nint* p = arr;\ncout << *(p + 1);|35|Address|20|36|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|15|0|5|10|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|B|Error|C|3
+int arr[] = { 35, 42, 19 };\nint* p = arr;\ncout << *(p + 1);|Error|42|35|Address|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|4|0|Error|14|3
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|A|Error|B|0
+int arr[] = { 43, 28, 26 };\nint* p = arr;\ncout << *(p + 1);|28|43|Address|Error|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|0|Error|15|5|2
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|C|Error|B|3
+int arr[] = { 21, 49, 41 };\nint* p = arr;\ncout << *(p + 1);|Error|21|Address|49|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|12|10|2|0|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|B|A|C|3
+int arr[] = { 23, 24, 44 };\nint* p = arr;\ncout << *(p + 1);|Error|24|44|Address|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|Error|3|13|0|2
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|B|A|Error|0
+int arr[] = { 22, 42, 30 };\nint* p = arr;\ncout << *(p + 1);|30|42|22|Error|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|4|Error|0|14|3
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|A|B|Error|0
+int arr[] = { 11, 20, 19 };\nint* p = arr;\ncout << *(p + 1);|20|Error|Address|19|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|0|15|10|Error|1
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|Error|B|C|3
+int arr[] = { 40, 34, 33 };\nint* p = arr;\ncout << *(p + 1);|40|Address|33|34|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|Error|13|0|10|1
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|C|Error|A|0
+int arr[] = { 14, 35, 15 };\nint* p = arr;\ncout << *(p + 1);|15|Address|14|35|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|0|5|15|Error|2
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|B|C|A|2
+int arr[] = { 44, 50, 32 };\nint* p = arr;\ncout << *(p + 1);|44|Address|50|32|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|5|15|10|0|1
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|A|B|3
+int arr[] = { 42, 13, 49 };\nint* p = arr;\ncout << *(p + 1);|49|Address|42|13|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|Error|10|13|3|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|B|Error|A|3
+int arr[] = { 35, 46, 44 };\nint* p = arr;\ncout << *(p + 1);|46|Error|Address|35|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|Error|14|4|10|1
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|B|A|3
+int arr[] = { 22, 34, 31 };\nint* p = arr;\ncout << *(p + 1);|22|Address|Error|34|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|2|10|0|12|3
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|Error|B|C|3
+int arr[] = { 13, 18, 16 };\nint* p = arr;\ncout << *(p + 1);|Address|16|Error|18|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|5|0|10|15|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|C|B|3
+int arr[] = { 43, 14, 39 };\nint* p = arr;\ncout << *(p + 1);|39|14|Error|Address|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|15|10|5|Error|0
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|Error|C|B|0
+int arr[] = { 43, 36, 17 };\nint* p = arr;\ncout << *(p + 1);|Error|Address|17|36|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|13|3|Error|10|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|B|C|3
+int arr[] = { 36, 42, 17 };\nint* p = arr;\ncout << *(p + 1);|Error|Address|36|42|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|14|0|10|Error|0
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|B|A|C|1
+int arr[] = { 33, 17, 16 };\nint* p = arr;\ncout << *(p + 1);|Address|17|33|16|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|4|14|10|Error|1
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|C|B|2
+int arr[] = { 17, 42, 33 };\nint* p = arr;\ncout << *(p + 1);|33|42|Address|Error|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|0|Error|10|14|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|B|A|2
+int arr[] = { 26, 18, 27 };\nint* p = arr;\ncout << *(p + 1);|27|26|Address|18|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|Error|0|12|10|2
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|B|A|2
+int arr[] = { 36, 46, 50 };\nint* p = arr;\ncout << *(p + 1);|Address|36|50|46|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|13|3|10|Error|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|B|C|3
+int arr[] = { 49, 32, 48 };\nint* p = arr;\ncout << *(p + 1);|Error|48|32|49|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|14|4|10|Error|0
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|C|B|1
+int arr[] = { 41, 25, 49 };\nint* p = arr;\ncout << *(p + 1);|49|25|Address|41|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|Error|5|0|15|3
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|B|Error|A|0
+int arr[] = { 16, 46, 15 };\nint* p = arr;\ncout << *(p + 1);|46|Error|15|Address|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|4|10|14|Error|2
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|C|A|Error|1
+int arr[] = { 26, 28, 50 };\nint* p = arr;\ncout << *(p + 1);|26|28|Error|50|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|0|10|13|Error|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|B|A|3
+int arr[] = { 27, 16, 50 };\nint* p = arr;\ncout << *(p + 1);|16|50|Address|27|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|10|15|Error|5|1
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|Error|C|B|2
+int arr[] = { 32, 20, 28 };\nint* p = arr;\ncout << *(p + 1);|20|32|Error|Address|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|Error|10|0|15|3
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|C|B|1
+int arr[] = { 38, 17, 24 };\nint* p = arr;\ncout << *(p + 1);|17|Address|24|38|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|10|0|12|2|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|Error|C|B|0
+int arr[] = { 32, 25, 21 };\nint* p = arr;\ncout << *(p + 1);|Address|Error|25|21|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|0|Error|5|15|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|C|Error|B|3
+int arr[] = { 26, 27, 49 };\nint* p = arr;\ncout << *(p + 1);|27|Error|Address|26|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|10|4|14|0|2
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|Error|B|C|3
+int arr[] = { 24, 23, 49 };\nint* p = arr;\ncout << *(p + 1);|Error|23|Address|49|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|0|10|Error|12|3
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|B|A|3
+int arr[] = { 19, 32, 33 };\nint* p = arr;\ncout << *(p + 1);|32|Address|Error|19|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|10|Error|15|5|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|Error|C|B|0
+int arr[] = { 18, 33, 40 };\nint* p = arr;\ncout << *(p + 1);|Error|33|40|18|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|0|10|5|15|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|B|Error|A|1
+int arr[] = { 45, 24, 38 };\nint* p = arr;\ncout << *(p + 1);|Error|45|24|Address|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|13|10|3|Error|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|C|Error|A|1
+int arr[] = { 10, 30, 18 };\nint* p = arr;\ncout << *(p + 1);|Error|30|18|10|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|10|0|3|13|3
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|C|B|2
+int arr[] = { 36, 34, 32 };\nint* p = arr;\ncout << *(p + 1);|36|32|Address|34|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|2|Error|12|10|2
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|B|A|Error|0
+int arr[] = { 39, 17, 27 };\nint* p = arr;\ncout << *(p + 1);|27|17|39|Address|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|5|10|15|0|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|Error|C|A|3
+int arr[] = { 12, 27, 29 };\nint* p = arr;\ncout << *(p + 1);|Error|12|Address|27|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|2|10|12|0|2
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|C|B|3
+int arr[] = { 17, 16, 24 };\nint* p = arr;\ncout << *(p + 1);|Address|24|17|16|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|2|10|12|Error|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|A|C|Error|1
+int arr[] = { 18, 26, 27 };\nint* p = arr;\ncout << *(p + 1);|26|27|Error|18|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|15|5|Error|10|0
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|Error|C|B|0
+int arr[] = { 39, 26, 22 };\nint* p = arr;\ncout << *(p + 1);|39|26|22|Error|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|12|10|Error|2|0
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|A|Error|B|1
+int arr[] = { 17, 49, 26 };\nint* p = arr;\ncout << *(p + 1);|Error|49|Address|17|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|12|Error|0|2|0
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|C|B|Error|2
+int arr[] = { 20, 35, 49 };\nint* p = arr;\ncout << *(p + 1);|49|Error|35|Address|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|12|0|2|Error|0
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|B|A|Error|1
+int arr[] = { 31, 17, 23 };\nint* p = arr;\ncout << *(p + 1);|31|Address|Error|17|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|10|Error|5|15|3
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|A|B|2
+int arr[] = { 40, 22, 24 };\nint* p = arr;\ncout << *(p + 1);|Error|24|22|Address|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|3|13|Error|0|1
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|B|C|3
+int arr[] = { 48, 32, 28 };\nint* p = arr;\ncout << *(p + 1);|48|28|32|Error|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|Error|0|15|10|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|B|A|C|2
+int arr[] = { 44, 32, 36 };\nint* p = arr;\ncout << *(p + 1);|44|Error|36|32|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|14|0|4|Error|0
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|C|B|Error|0
+int arr[] = { 16, 11, 25 };\nint* p = arr;\ncout << *(p + 1);|11|Error|Address|25|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|Error|13|0|10|1
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|B|A|3
+int arr[] = { 22, 18, 26 };\nint* p = arr;\ncout << *(p + 1);|Address|Error|18|26|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|13|10|Error|0|0
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|A|B|3
+int arr[] = { 39, 25, 18 };\nint* p = arr;\ncout << *(p + 1);|Address|18|25|39|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|0|Error|12|2|2
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|C|Error|A|0
+int arr[] = { 14, 35, 41 };\nint* p = arr;\ncout << *(p + 1);|41|Error|35|Address|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|14|10|4|0|0
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|Error|B|C|0
+int arr[] = { 47, 24, 22 };\nint* p = arr;\ncout << *(p + 1);|47|22|Error|24|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|10|0|12|2|2
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|A|C|B|2
+int arr[] = { 38, 40, 34 };\nint* p = arr;\ncout << *(p + 1);|40|34|Address|Error|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|10|15|0|5|1
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|B|C|A|3
+int arr[] = { 27, 29, 50 };\nint* p = arr;\ncout << *(p + 1);|Error|29|27|Address|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|0|10|Error|14|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|C|Error|A|0
+int arr[] = { 11, 23, 42 };\nint* p = arr;\ncout << *(p + 1);|Error|Address|23|42|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|3|Error|10|13|3
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|Error|A|C|2
+int arr[] = { 44, 32, 39 };\nint* p = arr;\ncout << *(p + 1);|39|32|Error|Address|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|0|Error|10|13|3
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|A|B|1
+int arr[] = { 37, 24, 28 };\nint* p = arr;\ncout << *(p + 1);|Error|37|Address|24|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|10|4|Error|14|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|B|Error|A|1
+int arr[] = { 17, 13, 31 };\nint* p = arr;\ncout << *(p + 1);|13|Error|17|Address|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|10|Error|2|12|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|B|A|2
+int arr[] = { 47, 43, 33 };\nint* p = arr;\ncout << *(p + 1);|43|47|Error|33|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|15|10|5|Error|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|A|Error|C|3
+int arr[] = { 23, 38, 24 };\nint* p = arr;\ncout << *(p + 1);|38|Error|Address|23|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|12|10|Error|0|0
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|A|Error|C|3
+int arr[] = { 23, 39, 12 };\nint* p = arr;\ncout << *(p + 1);|Error|23|39|12|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|Error|13|0|3|1
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|Error|B|A|3
+int arr[] = { 36, 20, 25 };\nint* p = arr;\ncout << *(p + 1);|25|Address|Error|20|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|2|0|12|10|2
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|Error|C|A|B|1
+int arr[] = { 20, 10, 22 };\nint* p = arr;\ncout << *(p + 1);|Error|10|Address|22|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|10|3|13|0|2
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|C|B|Error|0
+int arr[] = { 19, 48, 23 };\nint* p = arr;\ncout << *(p + 1);|Address|19|48|Error|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|14|10|Error|4|0
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|C|Error|B|3
+int arr[] = { 16, 42, 34 };\nint* p = arr;\ncout << *(p + 1);|42|Address|16|Error|0
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|10|13|0|Error|1
+int x = 3;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|Error|B|C|3
+int arr[] = { 15, 26, 15 };\nint* p = arr;\ncout << *(p + 1);|Address|15|Error|26|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(3);\n}|0|3|13|Error|2
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|C|Error|A|0
+int arr[] = { 39, 25, 49 };\nint* p = arr;\ncout << *(p + 1);|39|25|Error|Address|1
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|Error|10|0|14|3
+int x = 2;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|A|C|B|Error|2
+int arr[] = { 37, 46, 38 };\nint* p = arr;\ncout << *(p + 1);|37|38|46|Address|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(5);\n}|0|Error|5|15|3
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|B|C|A|Error|2
+int arr[] = { 43, 34, 36 };\nint* p = arr;\ncout << *(p + 1);|36|Error|Address|34|3
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(4);\n}|4|Error|10|14|3
+int x = 1;\nswitch(x) {\n  case 1: cout << 'A'; break;\n  case 2: cout << 'B'; break;\n  default: cout << 'C';\n}|C|B|Error|A|3
+int arr[] = { 14, 23, 11 };\nint* p = arr;\ncout << *(p + 1);|Error|11|23|14|2
+int add(int n) {\n    return n + 10;\n}\n\nint main() {\n    cout << add(2);\n}|12|10|0|2|0

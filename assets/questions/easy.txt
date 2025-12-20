@@ -1,0 +1,301 @@
+# Question|A|B|C|D|CorrectIndex
+What is the output?\n\nint a = 3;\nint b = 10;\ncout << a - b;|-8|0|10|-7|3
+int x = 14;\nif (x > 13) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|No|Yes|Error|2
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|0|Infinite|3|4|2
+What is the output?\n\nint a = 2;\nint b = 9;\ncout << a + b;|0|10|11|12|2
+int x = 10;\nif (x > 13) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|Yes|None|1
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|5|Infinite|4|0|2
+What is the output?\n\nint a = 5;\nint b = 5;\ncout << a + b;|9|10|0|11|1
+int x = 11;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|No|Yes|Error|1
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|6|0|7|Infinite|0
+What is the output?\n\nint a = 5;\nint b = 2;\ncout << a % b;|2|10|0|1|3
+int x = 8;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Yes|No|Error|2
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|4|5|3|0|0
+What is the output?\n\nint a = 6;\nint b = 8;\ncout << a % b;|5|10|0|6|3
+int x = 5;\nif (x > 14) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|Yes|None|No|3
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|5|4|0|Infinite|1
+What is the output?\n\nint a = 5;\nint b = 9;\ncout << a + b;|10|14|0|15|1
+int x = 7;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Yes|None|Error|0
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|4|5|0|Infinite|0
+What is the output?\n\nint a = 10;\nint b = 7;\ncout << a - b;|0|3|10|4|1
+int x = 12;\nif (x > 13) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|None|Yes|Error|0
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|4|5|0|6|1
+What is the output?\n\nint a = 9;\nint b = 8;\ncout << a - b;|10|0|1|2|2
+int x = 8;\nif (x > 10) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Yes|Error|None|0
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|4|0|5|Infinite|0
+What is the output?\n\nint a = 5;\nint b = 3;\ncout << a + b;|10|0|16|8|3
+int x = 11;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Error|No|Yes|2
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|2|0|3|Infinite|2
+What is the output?\n\nint a = 5;\nint b = 4;\ncout << a % b;|2|0|10|1|3
+int x = 10;\nif (x > 14) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Yes|Error|None|0
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|5|0|6|7|2
+What is the output?\n\nint a = 4;\nint b = 2;\ncout << a % b;|1|0|-1|10|1
+int x = 9;\nif (x > 5) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|None|Error|Yes|3
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|Infinite|4|5|0|2
+What is the output?\n\nint a = 6;\nint b = 3;\ncout << a % b;|1|10|0|-1|2
+int x = 10;\nif (x > 6) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|Yes|None|2
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|7|6|0|Infinite|1
+What is the output?\n\nint a = 7;\nint b = 5;\ncout << a * b;|70|35|36|10|1
+int x = 13;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|No|Yes|3
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|0|7|6|Infinite|2
+What is the output?\n\nint a = 4;\nint b = 3;\ncout << a % b;|0|2|1|10|2
+int x = 14;\nif (x > 8) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|No|Yes|3
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|3|Infinite|5|4|3
+What is the output?\n\nint a = 7;\nint b = 7;\ncout << a - b;|0|-1|1|10|0
+int x = 8;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|None|Yes|Error|0
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|Infinite|5|0|6|3
+What is the output?\n\nint a = 10;\nint b = 5;\ncout << a % b;|0|1|10|-1|0
+int x = 5;\nif (x > 6) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Yes|Error|No|3
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|5|Infinite|0|6|3
+What is the output?\n\nint a = 7;\nint b = 5;\ncout << a + b;|11|10|24|12|3
+int x = 15;\nif (x > 8) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Error|No|Yes|3
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|5|4|0|6|0
+What is the output?\n\nint a = 3;\nint b = 2;\ncout << a * b;|5|6|7|0|1
+int x = 5;\nif (x > 9) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|Yes|No|3
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|3|2|4|Infinite|0
+What is the output?\n\nint a = 5;\nint b = 8;\ncout << a * b;|0|80|39|40|3
+int x = 7;\nif (x > 5) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|Yes|No|2
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|3|0|4|5|2
+What is the output?\n\nint a = 2;\nint b = 7;\ncout << a - b;|-4|10|-5|0|2
+int x = 6;\nif (x > 8) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|None|Yes|1
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|Infinite|3|0|2|1
+What is the output?\n\nint a = 7;\nint b = 6;\ncout << a + b;|13|12|14|10|0
+int x = 12;\nif (x > 14) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|None|Yes|1
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|3|Infinite|0|4|3
+What is the output?\n\nint a = 3;\nint b = 2;\ncout << a + b;|0|10|5|4|2
+int x = 15;\nif (x > 5) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Yes|No|Error|1
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|Infinite|7|6|0|2
+What is the output?\n\nint a = 9;\nint b = 4;\ncout << a - b;|10|5|4|0|1
+int x = 9;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Yes|None|Error|0
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|4|0|Infinite|5|0
+What is the output?\n\nint a = 9;\nint b = 9;\ncout << a - b;|0|-1|1|10|0
+int x = 6;\nif (x > 7) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|Yes|None|1
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|Infinite|4|0|5|3
+What is the output?\n\nint a = 7;\nint b = 3;\ncout << a % b;|0|2|10|1|3
+int x = 12;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|No|Error|Yes|1
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|3|0|Infinite|2|0
+What is the output?\n\nint a = 9;\nint b = 4;\ncout << a % b;|1|2|10|0|0
+int x = 8;\nif (x > 5) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|No|Error|None|0
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|5|4|6|0|0
+What is the output?\n\nint a = 8;\nint b = 3;\ncout << a - b;|6|0|5|10|2
+int x = 7;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Error|No|Yes|2
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|5|0|4|6|0
+What is the output?\n\nint a = 10;\nint b = 10;\ncout << a + b;|10|21|20|0|2
+int x = 15;\nif (x > 13) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|Error|No|None|0
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|5|Infinite|6|0|0
+What is the output?\n\nint a = 7;\nint b = 4;\ncout << a - b;|2|4|3|0|2
+int x = 10;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|None|Error|Yes|0
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|Infinite|4|0|3|1
+What is the output?\n\nint a = 5;\nint b = 9;\ncout << a * b;|10|0|45|44|2
+int x = 8;\nif (x > 13) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|No|None|Error|1
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|0|3|4|5|2
+What is the output?\n\nint a = 4;\nint b = 4;\ncout << a + b;|9|10|7|8|3
+int x = 5;\nif (x > 5) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|None|No|Error|2
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|0|4|Infinite|3|1
+What is the output?\n\nint a = 7;\nint b = 3;\ncout << a - b;|4|10|0|5|0
+int x = 14;\nif (x > 6) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|None|Yes|Error|2
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|4|5|6|Infinite|1
+What is the output?\n\nint a = 8;\nint b = 3;\ncout << a + b;|11|10|22|12|0
+int x = 13;\nif (x > 7) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Error|Yes|No|2
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|7|5|0|6|3
+What is the output?\n\nint a = 3;\nint b = 9;\ncout << a + b;|12|24|0|11|0
+int x = 7;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|Yes|None|1
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|5|Infinite|6|7|2
+What is the output?\n\nint a = 7;\nint b = 6;\ncout << a * b;|43|10|0|42|3
+int x = 11;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Yes|No|Error|2
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|5|6|0|Infinite|0
+What is the output?\n\nint a = 10;\nint b = 5;\ncout << a - b;|5|4|10|6|0
+int x = 5;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|None|Error|Yes|0
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|3|Infinite|2|4|0
+What is the output?\n\nint a = 3;\nint b = 4;\ncout << a % b;|2|6|0|3|3
+int x = 15;\nif (x > 9) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|Error|None|No|0
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|3|Infinite|0|4|3
+What is the output?\n\nint a = 5;\nint b = 8;\ncout << a * b;|40|41|80|39|0
+int x = 14;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|Yes|None|1
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|6|5|0|Infinite|1
+What is the output?\n\nint a = 5;\nint b = 7;\ncout << a % b;|10|4|0|5|3
+int x = 13;\nif (x > 5) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Yes|Error|No|1
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|3|5|4|0|2
+What is the output?\n\nint a = 3;\nint b = 6;\ncout << a + b;|8|0|10|9|3
+int x = 8;\nif (x > 8) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Error|None|Yes|0
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|Infinite|0|2|3|3
+What is the output?\n\nint a = 6;\nint b = 2;\ncout << a + b;|8|7|10|0|0
+int x = 6;\nif (x > 10) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Error|No|Yes|2
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|3|2|Infinite|4|0
+What is the output?\n\nint a = 7;\nint b = 2;\ncout << a + b;|10|9|8|18|1
+int x = 10;\nif (x > 14) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Error|Yes|None|0
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|5|4|3|0|1
+What is the output?\n\nint a = 10;\nint b = 2;\ncout << a * b;|21|10|19|20|3
+int x = 14;\nif (x > 7) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|No|Error|Yes|3
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|3|4|0|5|1
+What is the output?\n\nint a = 10;\nint b = 7;\ncout << a + b;|0|34|10|17|3
+int x = 11;\nif (x > 5) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Yes|Error|None|1
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|0|4|5|3|1
+What is the output?\n\nint a = 4;\nint b = 4;\ncout << a % b;|-1|10|0|1|2
+int x = 15;\nif (x > 14) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Error|Yes|None|2
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|4|5|0|Infinite|1
+What is the output?\n\nint a = 3;\nint b = 8;\ncout << a - b;|-5|-4|-6|0|0
+int x = 11;\nif (x > 7) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|None|Yes|3
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|5|Infinite|6|7|2
+What is the output?\n\nint a = 3;\nint b = 2;\ncout << a + b;|4|10|6|5|3
+int x = 6;\nif (x > 10) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|Yes|None|No|3
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|4|5|Infinite|0|0
+What is the output?\n\nint a = 2;\nint b = 7;\ncout << a + b;|0|18|10|9|3
+int x = 7;\nif (x > 5) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|None|Yes|Error|2
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|0|4|2|3|3
+What is the output?\n\nint a = 5;\nint b = 4;\ncout << a + b;|9|0|10|18|0
+int x = 11;\nif (x > 9) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Error|No|Yes|3
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|7|6|5|0|1
+What is the output?\n\nint a = 2;\nint b = 8;\ncout << a + b;|10|0|20|11|0
+int x = 7;\nif (x > 10) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Error|Yes|No|3
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|Infinite|5|3|4|3
+What is the output?\n\nint a = 3;\nint b = 4;\ncout << a - b;|-1|0|-2|10|0
+int x = 6;\nif (x > 14) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Error|Yes|None|0
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|6|4|5|0|2
+What is the output?\n\nint a = 7;\nint b = 6;\ncout << a * b;|84|42|41|10|1
+int x = 10;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|None|Yes|1
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|0|5|Infinite|4|3
+What is the output?\n\nint a = 5;\nint b = 10;\ncout << a - b;|-5|0|-10|-6|0
+int x = 10;\nif (x > 10) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|None|No|Error|2
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|3|0|4|5|2
+What is the output?\n\nint a = 3;\nint b = 10;\ncout << a - b;|10|-7|-8|-6|1
+int x = 14;\nif (x > 9) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Error|Yes|None|2
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|0|5|Infinite|6|1
+What is the output?\n\nint a = 2;\nint b = 8;\ncout << a * b;|0|15|17|16|3
+int x = 11;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|No|Error|None|1
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|0|Infinite|5|4|2
+What is the output?\n\nint a = 3;\nint b = 7;\ncout << a - b;|-5|10|-4|-8|2
+int x = 14;\nif (x > 7) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|None|Error|No|0
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|2|4|Infinite|3|3
+What is the output?\n\nint a = 6;\nint b = 9;\ncout << a * b;|53|54|55|108|1
+int x = 9;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Error|No|Yes|2
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|Infinite|4|5|0|2
+What is the output?\n\nint a = 10;\nint b = 7;\ncout << a + b;|10|17|34|0|1
+int x = 15;\nif (x > 5) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Error|Yes|None|2
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|0|5|Infinite|4|3
+What is the output?\n\nint a = 3;\nint b = 10;\ncout << a + b;|13|10|12|0|0
+int x = 6;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Yes|Error|No|3
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|2|Infinite|0|3|3
+What is the output?\n\nint a = 5;\nint b = 7;\ncout << a - b;|-3|-1|-2|10|2
+int x = 15;\nif (x > 13) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|No|Error|None|0
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|5|4|6|Infinite|0
+What is the output?\n\nint a = 9;\nint b = 3;\ncout << a % b;|0|-1|10|1|0
+int x = 5;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|No|Yes|2
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|0|4|Infinite|5|3
+What is the output?\n\nint a = 9;\nint b = 5;\ncout << a - b;|5|4|3|8|1
+int x = 8;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|None|Error|No|3
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|5|6|Infinite|0|1
+What is the output?\n\nint a = 2;\nint b = 6;\ncout << a * b;|12|10|11|24|0
+int x = 5;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Error|None|Yes|0
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|7|Infinite|5|6|3
+What is the output?\n\nint a = 4;\nint b = 2;\ncout << a - b;|10|2|0|3|1
+int x = 15;\nif (x > 10) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|Yes|None|No|1
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|Infinite|3|4|0|2
+What is the output?\n\nint a = 5;\nint b = 2;\ncout << a + b;|8|0|7|10|2
+int x = 6;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|Error|None|No|3
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|Infinite|2|0|3|3
+What is the output?\n\nint a = 4;\nint b = 8;\ncout << a - b;|-3|-4|-5|0|1
+int x = 10;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Yes|None|Error|0
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|7|6|5|0|1
+What is the output?\n\nint a = 3;\nint b = 6;\ncout << a * b;|0|18|17|19|1
+int x = 10;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|No|None|Error|1
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|5|4|Infinite|6|0
+What is the output?\n\nint a = 5;\nint b = 10;\ncout << a * b;|50|10|49|100|0
+int x = 9;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|Yes|None|No|3
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|Infinite|4|5|6|2
+What is the output?\n\nint a = 7;\nint b = 9;\ncout << a - b;|-3|-2|0|10|1
+int x = 10;\nif (x > 8) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|No|Error|Yes|3
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|0|Infinite|4|5|3
+What is the output?\n\nint a = 8;\nint b = 8;\ncout << a * b;|64|65|128|63|0
+int x = 9;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Error|Yes|None|0
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|5|Infinite|4|6|0
+What is the output?\n\nint a = 8;\nint b = 10;\ncout << a % b;|0|8|7|16|1
+int x = 15;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Yes|None|Error|1
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|0|2|3|4|2
+What is the output?\n\nint a = 8;\nint b = 3;\ncout << a + b;|22|12|0|11|3
+int x = 6;\nif (x > 10) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|Yes|No|3
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|7|5|0|6|3
+What is the output?\n\nint a = 10;\nint b = 9;\ncout << a + b;|38|0|18|19|3
+int x = 11;\nif (x > 10) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|Yes|None|No|1
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|Infinite|7|6|5|2
+What is the output?\n\nint a = 3;\nint b = 8;\ncout << a - b;|0|-10|-5|-4|2
+int x = 8;\nif (x > 7) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Yes|None|Error|1
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|3|0|4|2|0
+What is the output?\n\nint a = 9;\nint b = 5;\ncout << a * b;|46|10|45|90|2
+int x = 10;\nif (x > 13) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|No|Yes|2
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|7|0|Infinite|6|3
+What is the output?\n\nint a = 4;\nint b = 10;\ncout << a * b;|40|0|39|80|0
+int x = 11;\nif (x > 13) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|None|No|Error|2
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|4|2|Infinite|3|3
+What is the output?\n\nint a = 5;\nint b = 3;\ncout << a % b;|1|3|2|10|2
+int x = 11;\nif (x > 10) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Yes|No|Error|1
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|7|6|0|5|1
+What is the output?\n\nint a = 4;\nint b = 9;\ncout << a * b;|36|0|10|37|0
+int x = 14;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|No|Yes|3
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|0|6|Infinite|5|3
+What is the output?\n\nint a = 3;\nint b = 4;\ncout << a * b;|13|12|10|24|1
+int x = 7;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|None|Yes|1
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|Infinite|6|4|5|3
+What is the output?\n\nint a = 7;\nint b = 10;\ncout << a - b;|-2|-4|0|-3|3
+int x = 10;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|No|Error|Yes|1
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|5|0|4|6|0
+What is the output?\n\nint a = 3;\nint b = 10;\ncout << a - b;|-8|10|0|-7|3
+int x = 14;\nif (x > 10) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|Yes|No|2
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|4|Infinite|2|3|3
+What is the output?\n\nint a = 7;\nint b = 7;\ncout << a + b;|0|14|10|28|1
+int x = 14;\nif (x > 8) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|None|No|Error|0
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|2|4|0|3|3
+What is the output?\n\nint a = 10;\nint b = 4;\ncout << a % b;|4|2|10|3|1
+int x = 13;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|None|Error|No|0
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|2|3|4|Infinite|1
+What is the output?\n\nint a = 6;\nint b = 6;\ncout << a + b;|12|10|13|11|0
+int x = 15;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Error|Yes|No|3
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|Infinite|0|3|4|2
+What is the output?\n\nint a = 8;\nint b = 8;\ncout << a + b;|32|10|16|17|2
+int x = 6;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Yes|Error|No|3
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|0|4|5|Infinite|2
+What is the output?\n\nint a = 8;\nint b = 6;\ncout << a % b;|0|2|10|1|1
+int x = 13;\nif (x > 15) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|Yes|No|3
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|0|4|3|2|2
+What is the output?\n\nint a = 9;\nint b = 5;\ncout << a % b;|5|4|3|0|1
+int x = 15;\nif (x > 14) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|Error|None|No|0
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|7|0|5|6|3
+What is the output?\n\nint a = 3;\nint b = 9;\ncout << a % b;|0|3|2|10|1
+int x = 11;\nif (x > 11) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Error|None|Yes|0
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|4|6|0|5|3
+What is the output?\n\nint a = 4;\nint b = 8;\ncout << a + b;|0|12|24|10|1
+int x = 7;\nif (x > 12) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|Yes|None|No|3
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|0|6|7|5|1
+What is the output?\n\nint a = 2;\nint b = 9;\ncout << a + b;|10|0|22|11|3
+int x = 8;\nif (x > 14) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|No|None|Error|1
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|2|Infinite|4|3|3
+What is the output?\n\nint a = 6;\nint b = 6;\ncout << a + b;|12|10|24|11|0
+int x = 5;\nif (x > 7) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Yes|Error|No|3
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|Infinite|4|0|3|1
+What is the output?\n\nint a = 2;\nint b = 2;\ncout << a - b;|10|0|-1|1|1
+int x = 14;\nif (x > 5) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|No|Yes|Error|2
+int count = 0;\nfor(int i=0; i<6; i++) {\n    count++;\n}\ncout << count;|5|7|6|Infinite|2
+What is the output?\n\nint a = 8;\nint b = 6;\ncout << a + b;|0|14|13|10|1
+int x = 13;\nif (x > 13) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|None|Yes|No|3
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|4|0|6|5|3
+What is the output?\n\nint a = 9;\nint b = 5;\ncout << a % b;|0|10|3|4|3
+int x = 13;\nif (x > 8) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|None|Error|Yes|No|2
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|0|4|5|Infinite|2
+What is the output?\n\nint a = 4;\nint b = 9;\ncout << a + b;|13|10|0|26|0
+int x = 7;\nif (x > 14) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|None|Yes|1
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|0|Infinite|4|5|3
+What is the output?\n\nint a = 9;\nint b = 6;\ncout << a + b;|16|10|14|15|3
+int x = 15;\nif (x > 8) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|Yes|None|2
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|3|4|Infinite|0|1
+What is the output?\n\nint a = 5;\nint b = 6;\ncout << a % b;|10|4|5|0|2
+int x = 12;\nif (x > 8) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|No|Yes|None|Error|1
+int count = 0;\nfor(int i=0; i<5; i++) {\n    count++;\n}\ncout << count;|4|0|5|6|2
+What is the output?\n\nint a = 3;\nint b = 8;\ncout << a + b;|12|11|10|22|1
+int x = 15;\nif (x > 6) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|None|Error|No|0
+int count = 0;\nfor(int i=0; i<3; i++) {\n    count++;\n}\ncout << count;|2|Infinite|3|4|2
+What is the output?\n\nint a = 10;\nint b = 10;\ncout << a * b;|99|0|200|100|3
+int x = 6;\nif (x > 9) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Error|No|Yes|None|1
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|4|5|0|Infinite|0
+What is the output?\n\nint a = 6;\nint b = 7;\ncout << a - b;|-2|10|-1|0|2
+int x = 8;\nif (x > 14) {\n    cout << "Yes";\n}\nelse {\n    cout << "No";\n}|Yes|None|No|Error|2
+int count = 0;\nfor(int i=0; i<4; i++) {\n    count++;\n}\ncout << count;|5|4|0|3|1
