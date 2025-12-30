@@ -1,4 +1,3 @@
-
 #include <SFML/Graphics.hpp> // For Rendering and Basic UI
 #include <SFML/Audio.hpp> // For Audio/sound effects
 #include <SFML/Window/Event.hpp> // For Keys pressed, mouse detection, window closing
